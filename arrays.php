@@ -36,7 +36,7 @@ $song_scale = array(
 
 // This includes theoretical scales
 $scales = array(
-  // # = sharp, b = flat, x = double sharp, bb = double flat
+  // # = sharp, b = flat, ## = double sharp, bb = double flat
   // Major Scales
   "Major" => array(
     "Cb" => array("Cb", "Db", "Eb", "Fb", "Gb", "Ab", "Bb"),
@@ -53,7 +53,7 @@ $scales = array(
     "F#" => array("F#", "G#", "A#", "B", "C#", "D#", "E#"),
     "Gb" => array("Gb", "Ab", "Bb", "Cb", "Db", "Eb", "F"),
     "G" => array("G", "A", "B", "C", "D", "E", "F#"),
-    "G#" => array("G#", "A#", "B#", "C#", "D#", "E#", "Fx"),
+    "G#" => array("G#", "A#", "B#", "C#", "D#", "E#", "F##"),
     "Ab" => array("Ab", "Bb", "C", "Db", "Eb", "F", "G"),
     "A" => array("A", "B", "C#", "D", "E", "F#", "G#"),
     "A#" => array("A#", "B#", "C##", "D#", "E#", "F##", "G##"),
@@ -71,7 +71,7 @@ $scales = array(
     "D#" => array("D#", "E#", "F#", "G#", "A#", "B", "C#"),
     "Eb" => array("Eb", "F", "Gb", "Ab", "Bb", "Cb", "Db"),
     "E" => array("E", "F#", "G", "A", "B", "C", "D"),
-    "E#" => array("E#", "Fx", "G#", "A#", "B#", "C#", "D#"),
+    "E#" => array("E#", "F##", "G#", "A#", "B#", "C#", "D#"),
     "Fb" => array("Fb", "Gb", "Abb", "Bbb", "Cb", "Dbb", "Ebb"),
     "F" => array("F", "G", "Ab", "Bb", "C", "Db", "Eb"),
     "F#" => array("F#", "G#", "A", "B", "C#", "D", "E"),
@@ -227,7 +227,7 @@ $chord_tables = array(
                   $scales["Minor"]["B#"][4])
   ),
   "Diminished" => array(
-    // # = sharp, b = flat, x = double sharp, bb = double flat
+    // # = sharp, b = flat, ## = double sharp, bb = double flat
     "C" => array("Cb", "Ebb", "Gbb"),
     "C" => array("C", "Eb", "Gb"),
     "C#" => array("C#", "E", "G"),
